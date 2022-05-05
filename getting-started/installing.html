@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Installing PyQIR &#8212; PyQIR  documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css" />
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="API Reference" href="../api-reference/index.html" />
+    <link rel="prev" title="Getting Started" href="index.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="installing-pyqir">
+<h1>Installing PyQIR<a class="headerlink" href="#installing-pyqir" title="Permalink to this headline">¶</a></h1>
+<p>Releases are published to both Python Package Index (PyPI) and GitHub releases. To install via pip:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install pyqir-generator
+pip install pyqir-evaluator
+pip install pyqir-parser
+</pre></div>
+</div>
+<section id="install-all-the-packages">
+<h2>Install all the Packages<a class="headerlink" href="#install-all-the-packages" title="Permalink to this headline">¶</a></h2>
+<p>Alternatively, you can run the installation script which will install them all for you:</p>
+<ul class="simple">
+<li><p>Windows</p>
+<ul>
+<li><p>Command Prompt: <code class="docutils literal notranslate"><span class="pre">install.cmd</span></code></p></li>
+<li><p>PowerShell: <code class="docutils literal notranslate"><span class="pre">install.ps1</span></code></p></li>
+</ul>
+</li>
+<li><p>Linux</p>
+<ul>
+<li><p>Bash/sh: <code class="docutils literal notranslate"><span class="pre">install.sh</span></code></p></li>
+<li><p>PowerShell: <code class="docutils literal notranslate"><span class="pre">install.ps1</span></code></p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="supported-platforms">
+<h2>Supported Platforms<a class="headerlink" href="#supported-platforms" title="Permalink to this headline">¶</a></h2>
+<p>For more information about what platforms are supported, please see
+<a class="reference internal" href="../development-guide/compatibility.html"><span class="doc">Compatibility</span></a>. Alternatively, instructions for how to build
+PyQIR from source can be found at <a class="reference internal" href="../development-guide/building.html"><span class="doc">Building PyQIR from Source</span></a>.</p>
+</section>
+<section id="uninstalling-the-packages">
+<h2>Uninstalling the Packages<a class="headerlink" href="#uninstalling-the-packages" title="Permalink to this headline">¶</a></h2>
+<p>To uninstall the PyQIR packages, run</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python -m pip uninstall -y pyqir-generator pyqir-parser pyqir-evaluator
+</pre></div>
+</div>
+</section>
+<section id="troubleshooting">
+<h2>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permalink to this headline">¶</a></h2>
+<section id="error-when-running-the-examples">
+<h3>Error when running the examples<a class="headerlink" href="#error-when-running-the-examples" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ModuleNotFoundError:</span> <span class="pre">No</span> <span class="pre">module</span> <span class="pre">named</span> <span class="pre">'(pyqir|pyqir.generator|pyqir.parser|pyqir.evaluator)'</span></code>:
+Install the library by running one of the <code class="docutils literal notranslate"><span class="pre">install.(sh|ps1|cmd)</span></code> scripts.</p></li>
+</ul>
+</section>
+<section id="other-errors">
+<h3>Other errors<a class="headerlink" href="#other-errors" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">Python</span> <span class="pre">was</span> <span class="pre">not</span> <span class="pre">found</span></code>: If you are running <code class="docutils literal notranslate"><span class="pre">python3</span></code> in a terminal window, run
+<code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">--version</span></code>. If the output starts <code class="docutils literal notranslate"><span class="pre">Python</span> <span class="pre">3</span></code> then use <code class="docutils literal notranslate"><span class="pre">python</span></code> instead.
+This can happen on some platforms that don’t create an alias.</p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">PyQIR</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Getting Started</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Installing PyQIR</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../api-reference/index.html">API Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../development-guide/index.html">Development Guide</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Getting Started</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Getting Started</a></li>
+      <li>Next: <a href="../api-reference/index.html" title="next chapter">API Reference</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, QIR Alliance.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.5.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/getting-started/installing.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
